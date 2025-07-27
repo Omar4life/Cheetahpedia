@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheetah Speed Test - Cheetapedia</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐆</text></svg>">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="paw-cursor">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="speed.html">Speed Test</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>⚡ Cheetah Speed Comparison</h1>
+        <p>See how the cheetah stacks up against other fast things!</p>
+    </header>
+
+    <main>
+        <section class="speed-bars">
+            <h2>Speed Showdown!</h2>
+            <p>Click "Start Race" to see the speed comparison!</p>
+            <button id="startRace" class="race-button">🏁 Start Race!</button>
+
+            <div class="speed-comparison">
+                <div class="speed-item">
+                    <span class="label">🐆 Cheetah: 120 km/h</span>
+                    <div class="speed-bar">
+                        <div class="speed-fill cheetah-speed" data-speed="120"></div>
+                    </div>
+                </div>
+
+                <div class="speed-item">
+                    <span class="label">🏃‍♂️ Human: 45 km/h</span>
+                    <div class="speed-bar">
+                        <div class="speed-fill human-speed" data-speed="45"></div>
+                    </div>
+                </div>
+
+                <div class="speed-item">
+                    <span class="label">🐎 Horse: 88 km/h</span>
+                    <div class="speed-bar">
+                        <div class="speed-fill horse-speed" data-speed="88"></div>
+                    </div>
+                </div>
+
+                <div class="speed-item">
+                    <span class="label">🚗 Car: 100 km/h</span>
+                    <div class="speed-bar">
+                        <div class="speed-fill car-speed" data-speed="100"></div>
+                    </div>
+                </div>
+
+                <div class="speed-item">
+                    <span class="label">🦅 Falcon: 390 km/h</span>
+                    <div class="speed-bar">
+                        <div class="speed-fill falcon-speed" data-speed="390"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="speed-facts">
+            <h2>Why Are Cheetahs So Fast?</h2>
+            <div class="fact-grid">
+                <div class="fact-card">
+                    <h3>🦴 Flexible Spine</h3>
+                    <p style="color: black;">Acts like a spring, allowing 25-foot strides</p>
+                </div>
+                <div class="fact-card">
+                    <h3>💨 Large Lungs</h3>
+                    <p style= "color: black;">Massive air intake for oxygen during sprints</p>
+                </div>
+                <div class="fact-card">
+                    <h3>🐾 Special Claws</h3>
+                    <p style="color: black;">Semi-retractable for extra grip while running</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cheetapedia - Built for speed!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
